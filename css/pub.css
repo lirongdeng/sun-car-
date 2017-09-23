@@ -1,0 +1,326 @@
+/*全局样式*/
+*{
+	padding: 0;
+	margin: 0;
+}
+html,body{
+	width: 100%;
+	height: 100%;
+	font-size: 12px;
+	color: #666666;
+}
+a{
+	text-decoration: none;
+	color: #666666;
+}
+li{
+	list-style: none;
+}
+/*全局样式结束*/
+
+/*头部客服热线*/
+#top{
+	width: 100%;
+	height: 35px;
+	border-bottom: 1px solid #E4E4E4;
+}
+#top .box{
+	width: 1200px;
+	height: 35px;
+	position: relative;
+	margin: 0 auto;
+	font-size: 12px;
+	color: #666;
+}
+#top .box .left{
+	width: 600px;
+	height: 35px;
+	line-height: 35px;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+#top .box .right{
+	width: 600px;
+	height: 35px;
+	line-height: 35px;
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+#top .box .right a{
+	float: right;
+	font-size: 12px;
+	color: #666;
+	margin-left: 9px;
+}
+#top .box .right span{
+	float: right;
+	margin-left: 9px;
+}
+/*头部客服热线结束*/
+
+/*搜索框部分*/
+#search{
+	width: 100%;
+	height: 100px;
+	border-bottom: 1px solid #E4E4E4;
+}
+#search .box{
+	width: 1200px;
+	height: 100px;
+	margin: 0 auto; 
+	position: relative;
+}
+#search .box .left{
+	position: absolute;
+	top: 10px;
+	left: 0;
+}
+#search .box .left a{
+	display: block;
+	width: 240px;
+	height: 85px;
+	background: url(../images/log.png);
+	background-size: 100% 100%;
+}
+#search .box .center{
+	width: 100px;
+	height: 22px;
+	position: absolute;
+	top: 38px;
+	left: 269px;
+	font-size: 18px;
+	color: orange;
+}
+#search .box .center a{
+	font-size: 12px;
+	color: black;
+	margin-left: 9px;
+	border: 1px solid #ccc;
+	line-height: 14px;
+}
+#search .box .ss{
+	width: 470px;
+	height: 37px;
+	/*border: 1px solid #CCCCCC;*/
+	position: absolute;
+	top: 27px;
+	left: 442px;
+}
+#search .box .ss input{
+	width: 390px;
+	height: 37px;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	color: #666666;
+	padding-left: 5px;
+}
+#search .box .ss a{
+	background: #00002E;
+	width: 80px;
+	height: 41px;
+	position: absolute;
+	top: 0;
+	right: 0px;
+	line-height: 37px;
+	text-align: center;
+	color: white;
+	font-size: 12px;
+}
+#search .box .right{
+	width: 170px;
+	height: 40px;
+	position: absolute;
+	top: 27px;
+	right: 10px;
+	background: url(../images/tel.png) no-repeat;
+}
+#search .box .right p{
+	font-size: 20px;
+	font-weight: 700;
+	color: #00002E;
+	position: absolute;
+	top: 5px;
+	left: 29px;
+}
+/*搜索框部分结束*/
+
+/*导航部分*/
+#nav{
+	width: 100%;
+	height: 76px;
+}
+#nav .box{
+	width: 1200px;
+	height: 65px;
+	margin: 0 auto;
+	position: relative;
+}
+#nav .box .center{
+	width: 515px;
+	height: 65px;
+	margin: 0 auto;
+}
+#nav .box .center div{
+	width: 102px;
+	height: 65px;
+	float: left;
+	margin-right: 1px;
+	text-align: center;
+	position: relative;
+}
+#nav .box .center a{
+	color: black;
+	font-size: 15px;
+	line-height: 62px;
+}
+#nav .box .center .nan{
+	width: 102px;
+}
+#nav .box .center span{
+	width: 0px;
+	height: 3px;
+	position: absolute;
+	top: 62px;
+	left: 50%;
+	transform: translateX(-50%);
+	background: #000000;
+	transition: all 0.2s 0.2s linear;
+}
+#nav .box .center div:hover span{
+	width: 102px;
+}
+/*导航部分结束*/
+
+
+/*页脚开始*/
+footer.one{
+	width: 100%;
+	height: 190px;
+	background: #F5F5F5;
+	margin-top: 15px;
+}
+footer .box{
+	width: 1200px;
+	height: 190px;
+	margin: 0 auto;
+	position: relative;
+}
+footer .box table{
+	width: 510px;
+	height: 120px;
+	position: absolute;
+	top: 40px;
+}
+footer .box table th{
+	font-size: 16px;
+	color: #666666;
+	text-align: left;
+	font-weight: 400;
+	height: 40px;
+}
+footer .box table td{
+	font-size: 12px;
+	padding-left: 10px;
+}
+footer .box table td a{
+	color: #666666;
+}
+footer .box table td a:hover{
+	color: red;
+}
+footer .box .center{
+	width: 220px;
+	height: 100px;
+	position: absolute;
+	top: 61px;
+	left: 523px;
+	display: flex;
+	justify-content: space-between;
+}
+footer .box .center dl dt{
+	font-size: 16px;
+	color: #666666;
+	line-height: 28px;
+	height: 36px;
+}
+footer .box .center dl a{
+	font-size: 12px;
+	color: #666666;
+	line-height: 24px;
+}
+footer .box .center dl a:hover{
+	color: red;
+}
+footer .box .right{
+	width: 160px;
+	height: 110px;
+	position: absolute;
+	top: 36px;
+	right: 100px;
+}
+footer .box .right p:nth-of-type(1){
+	color: #EE7800;
+	font-size: 20px;
+	line-height: 22px;
+	text-align: center;
+	margin-bottom: 8px;
+}
+footer .box .right p:nth-of-type(1)~p{
+	font-size: 12px;
+	color: #666666;
+	line-height: 14px;
+	text-align: center;
+}
+footer .box .right .kefu{
+	width: 120px;
+	height: 30px;
+	position: absolute;
+	bottom: 0;
+	left: 20px;
+	border: 1px solid red;
+	background: no-repeat url(../images/mb-kf-icon.png) 5px 5px;
+	font-size: 12px;
+	color: #666666;
+	text-align: center;
+	line-height: 30px;
+}
+footer .box .right .kefu:hover{
+	background: #FF7800 url(../images/mb-kf-icon.png) no-repeat 5px -13px;
+}
+footer .box span{
+	width: 1px;
+	height: 130px;
+	background: #CCCCCC;
+	position: absolute;
+	top: 36px;
+	right: 330px;
+}
+footer#two{
+	width: 100%;
+	height: 57px;
+	background: #444444;
+	font-size: 12px;
+	color: #bbb;
+	text-align: center;
+	line-height: 57px;
+}
+/*页脚结束*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

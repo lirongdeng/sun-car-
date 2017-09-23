@@ -1,0 +1,784 @@
+@import url("pub.css");
+
+/*轮播图部分*/
+#flash{
+	width: 100%;
+	height: 527px;
+}
+#flash .box{
+	width: 1200px;
+	height: 527px;
+	margin: 0 auto;
+	position: relative;
+}
+#flash .box .left{
+	width: 269px;
+	height: 525px;
+	border: 1px solid #CCCCCC;
+	float: left;
+	position: relative;
+}
+#flash .box .left h2{
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 28px;
+	margin-top: 12px;
+	text-indent: 0.4em;
+}
+/*品牌*/
+#flash .box .left .pinpai{
+	width: 269px;
+	height: 105px;
+	position: relative;
+	border-top: 1px solid #CCCCCC;
+	/*border: 1px solid red;*/
+}
+#flash .box .left .pinpai .show{
+	width: 268px;
+	height: 103px;
+	z-index: 999;
+}
+#flash .box .left .pinpai .hide{
+	width: 500px;
+	height: 205px;
+	display: none;
+	position: absolute;
+	top: 0;
+	left: 269px;
+	z-index: 1;
+	background: #FFFFFF;
+}
+/*品牌隐藏部分*/
+#flash .box .left .pinpai .hide .B{
+	height: 65px;
+	line-height: 30px;
+	font-size: 12px;
+	color: #666666;
+	border-bottom: 1px solid #CCCCCC;
+	margin-left: 5px;
+}
+#flash .box .left .pinpai .hide .A,.D,.C{
+	height: 45px;
+	line-height: 45px;
+	font-size: 12px;
+	color: #666666;
+	border-bottom: 1px solid #CCCCCC;
+	margin-left: 5px;
+}
+#flash .box .left .pinpai .hide a{
+	
+}
+#flash .box .left .pinpai .hide a:hover{
+	color: red;
+}
+/*品牌隐藏部分结束*/
+#flash .box .left .pinpai:hover .show{
+	z-index: 50;
+	border: 1px solid #FFB957;
+	border-right: 1px solid #FFFFFF;
+}
+#flash .box .left .pinpai:hover .hide{
+	display: block;
+	border: 1px solid #EE7800;
+}
+#flash .box .left .pinpai p{
+	font-size: 14px;
+	color: #000000;
+	line-height: 34px;
+	margin-top: 8px;
+	margin-left: 15px;
+}
+#flash .box .left .pinpai a{
+	line-height: 26px;
+	font-size: 12px;
+	color: #666666;
+	margin-left: 14px;
+}
+/*品牌结束*/
+
+/*价格 ,车型*/
+#flash .box .left .price,.model{
+	font-size: 14px;
+	color: #000000;
+	line-height: 34px;
+	margin-top: 8px;
+	margin-left: 15px;
+}
+#flash .box .left .price~a{
+	line-height: 26px;
+	font-size: 12px;
+	color: #666666;
+	margin-left: 14px;
+}
+#flash .box .left .model{
+	border-top: 1px dashed #CCCCCC;
+}
+/*价格,车型结束*/
+
+/*我要买车*/
+#flash .box .left .buy{
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 54px;
+	margin-top: 12px;
+	text-indent: 0.4em;
+	border-top: 1px solid #CCCCCC;
+}
+#flash .box .left .tel{
+	width: 175px;
+	height: 36px;
+	position: absolute;
+	bottom: 75px;
+	left: 44px;
+	border: 1px solid #CCCCCC;
+	border-top: 1px solid #ABADB3;
+	color: #666666;
+	font-size: 12px;
+	padding-left: 10px;
+}
+#flash .box .left .true-tel{
+	font-size: 12px;
+	color: red;
+	position: absolute;
+	left: 73px;
+	bottom: 61px;
+}
+#flash .box .left .sub{
+	width: 175px;
+	height: 36px;
+	background: #F79630;
+	color: white;
+	font-size: 16px;
+	position: absolute;
+	bottom: 13px;
+	left: 46px;
+}
+/*我要买车结束*/
+
+/*轮播图*/
+#flash .box .fla{
+	width: 920px;
+	height: 400px;
+	float: right;
+	position: relative;
+}
+#flash .box .fla ul{
+	width: 120px;
+	height: 12px;
+	position: absolute;
+	bottom: 10px;
+	left: 410px;
+}
+#flash .box .fla ul li{
+	width: 6px;
+	height: 6px;
+	list-style: none;
+	float: left;
+	margin-right: 14px;
+	border-radius: 100%;
+	border: 3px solid black;
+}
+#flash .box .fla img{
+	width: 920px;
+	height: 400px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: none;
+}
+/*轮播图结束*/
+
+/*质保部分*/
+#flash .box .zhibao{
+	width: 920px;
+	height: 116px;
+	border: 1px solid #CCCCCC;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	
+}
+#flash .box .zhibao>div{
+	width: 62px;
+	height: 62px;
+	background: url(../images/cirle.png) no-repeat;
+	float: left;
+	margin-top: 12px;
+	margin-left: 118px;
+	margin-right: 27px;
+}
+#flash .box .zhibao img{
+	width: 70%;
+	margin: 15%;
+	transform: rotateY(0deg);
+	transition: all 0.5s;
+}
+#flash .box .zhibao p{
+	font-size: 16px;
+	font-weight: 700;
+	color: #000000;
+	position: absolute;
+	bottom: 16px;
+}
+#flash .box .zhibao>div:hover img{
+	transform: rotateY(180deg);
+}
+/*质保部分结束*/
+
+/*轮播图部分结束*/
+
+/*实用代步车部分*/
+#box{
+	width: 1200px;
+	height: 518px;
+	margin: 98px auto 0px auto;
+	
+}
+/*左部分*/
+#box .left{
+	width: 334px;
+	height: 518px;
+	float: left;
+	border: 1px solid #CCCCCC;
+}
+/*左部分结束*/
+/*右部分*/
+#box .right{
+	width: 854px;
+	height: 518px;
+	float: right;
+	border: 1px solid #CCCCCC;
+}
+#box .right>div{
+	float: left;
+}
+#box .right img{
+	position: absolute;
+	bottom: 22px;
+	right: 22px;
+	transition: all 0.5s; 
+}
+#box .right .c1{
+	width: 458px;
+	height: 339px;
+	border-right: 1px solid #CCCCCC;
+	border-bottom: 1px solid #CCCCCC;
+	position: relative;
+}
+#box .right .c2{
+	width: 395px;
+	height: 178px;
+	border-bottom: 1px solid #CCCCCC;
+	position: relative;
+}
+#box .right .c3{
+	width: 395px;
+	height: 160px;
+	border-bottom: 1px solid #CCCCCC;
+	position: relative;
+}
+#box .right .c4{
+	width: 228px;
+	height: 178px;
+	border-right: 1px solid #CCCCCC;
+	position: relative;
+}
+#box .right .c5{
+	width: 229px;
+	height: 178px;
+	border-right: 1px solid #CCCCCC;
+	position: relative;
+}
+#box .right .c6{
+	width: 395px;
+	height: 178px;
+	position: relative;
+}
+#box .right p{
+	font-size: 12px;
+	color: #666666;
+	margin-left: 19px;
+}
+#box .right .big{
+	font-size: 18px;
+	color: #000000;
+	margin-top: 20px;
+}
+#box .right>div:hover img{
+	right: 32px;
+} 
+/*右部分结束*/
+
+/*实用代步车部分结束*/
+
+/*热卖好车开始*/
+/*头部开始*/
+#jiameng{
+	width: 1200px;
+	height: 650px;
+	margin: 0 auto;
+	margin-top: 15px;
+	position: relative;
+}
+#jiameng .top{
+	width: 1200px;
+	height: 45px;
+	line-height: 45px;
+	font-size: 12px;
+	border-bottom: 3px solid #00002E;
+}
+#jiameng .top p{
+	width: 100px;
+	height: 45px;
+	text-align: center;
+	float: left;
+	color: #666666;
+}
+#jiameng .top p.sty{
+	background: #00002E;
+	color: white;
+	border-radius: 2px;
+}
+#jiameng .top a{
+	float: right;
+	margin-right: 36px;
+	color: #666666;
+}
+#jiameng .top a:hover{
+	color: red;
+	text-decoration: underline;
+}
+/*头部结束*/
+/*左侧开始*/
+#jiameng .left{
+	width: 285px;
+	height: 590px;
+	border: 1px solid #CCCCCC;
+	margin-top: 10px;
+	background: url(../images/jmicon.png) no-repeat 70px 18px;
+}
+#jiameng .left h2{
+	font-size: 20px;
+	margin-top: 25px;
+	margin-left: 110px;
+	margin-bottom: 16px;
+}
+ #jiameng .left .text{
+	width: 260px;
+	height: 37px;
+	margin-top: 10px;
+	margin-left: 10px;
+	font-size: 12px;
+	color: #666666;
+	text-indent: 1em;
+}
+#jiameng .left .yanzheng{
+	width: 152px;
+	height: 37px;
+	margin-top: 10px;
+	margin-left: 10px;
+	font-size: 12px;
+	color: #666666;
+	text-indent: 1em;
+}
+#jiameng .left .duanxin{
+	width: 90px;
+	height: 37px;
+	margin-top: 10px;
+	margin-left: 14px;
+	font-size: 14px;
+	color: #000000;
+	background: #F4F4F4;
+	border: 1px solid #CCCCCC;
+	text-align: center;
+}
+#jiameng .left .sel1{
+	width: 115px;
+	height: 35px;
+	margin-top: 10px;
+	margin-left: 10px;
+	font-size: 12px;
+	color: #666;
+	text-indent: 1em;
+}
+#jiameng .left .sel2{
+	width: 115px;
+	height: 35px;
+	margin-top: 10px;
+	margin-left: 26px;
+	font-size: 12px;
+	color: #666;
+	text-indent: 1em;
+}
+#jiameng .left .email{
+	width: 260px;
+	height: 37px;
+	text-indent: 1em;
+	margin-top: 10px;
+	margin-left: 10px;
+	font-size: 12px;
+	color: #666666;
+}
+#jiameng .left .tar{
+	width: 240px;
+	height: 80px;
+	margin-top: 10px;
+	margin-left: 10px;
+	padding: 10px;
+	font-size: 12px;
+	color: #666666;
+}
+#jiameng .left .sub{
+	width: 260px;
+	height: 35px;
+	margin-top: 10px;
+	margin-left: 10px;
+	font-size: 16px;
+	color: #fff;
+	background: #FC5300;
+}
+/*左侧结束*/
+/*右侧开始*/
+#jiameng .right{
+	width: 896px;
+	height: 590px;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+}
+#jiameng .right>div{
+	width: 896px;
+	height: 590px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: none;
+}
+#jiameng .right .arr1{
+	display: block;
+}
+#jiameng .rmhc{
+	width: 896px;
+	height: 590px;
+	position: absolute;
+	bottom: 0px;
+	right: 0;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-content: space-between;
+}
+#jiameng .rmhc>div{
+	width: 292px;
+	height: 288px;
+	position: relative;
+}
+#jiameng .rmhc>div:hover{
+	outline: 2px solid #FF7E00;
+}
+#jiameng .right .tim{
+	font-size: 12px;
+	color: #666666;
+	position: absolute;
+	bottom: 40px;
+	left: 8px;
+}
+#jiameng .right a{
+	font-size: 16px;
+	line-height: 24px;
+	text-indent: 8px;
+	color: #000000;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+#jiameng .right a:hover{
+	color: red;
+}
+#jiameng .right .add{
+	font-size: 12px;
+	color: #666666;
+	position: absolute;
+	bottom: 38px;
+	right: 8px;
+	border: 1px solid #666666;
+}
+#jiameng .right .price{
+	font-size: 22px;
+	color: #FF7E00;
+	position: absolute;
+	left: 8px;
+	bottom: 6px;
+}
+#jiameng .right .yj{
+	font-size: 12px;
+	color: #666666;
+	position: absolute;
+	bottom: 9px;
+	left: 85px;
+}
+#jiameng .zxsj{
+	width: 896px;
+	height: 590px;
+	position: absolute;
+	bottom: 0px;
+	right: 0;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-content: space-between;
+}
+#jiameng .zxsj>div{
+	width: 292px;
+	height: 288px;
+	position: relative;
+}
+#jiameng .zxsj>div:hover{
+	outline: 2px solid #FF7E00;
+}
+#jiameng .jjjs{
+	width: 896px;
+	height: 590px;
+	position: absolute;
+	bottom: 0px;
+	right: 0;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-content: space-between;
+}
+#jiameng .jjjs>div{
+	width: 292px;
+	height: 288px;
+	position: relative;
+}
+#jiameng .jjjs>div:hover{
+	outline: 2px solid #FF7E00;
+}
+#jiameng .zxc{
+	width: 896px;
+	height: 590px;
+	position: absolute;
+	bottom: 0px;
+	right: 0;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-content: space-between;
+}
+#jiameng .zxc>div{
+	width: 292px;
+	height: 288px;
+	position: relative;
+}
+#jiameng .zxc>div:hover{
+	outline: 2px solid #FF7E00;
+}	
+#jiameng .suv{
+	width: 896px;
+	height: 590px;
+	position: absolute;
+	bottom: 0px;
+	right: 0;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-content: space-between;
+}
+#jiameng .suv>div{
+	width: 292px;
+	height: 288px;
+	position: relative;
+}
+#jiameng .suv>div:hover{
+	outline: 2px solid #FF7E00;
+}		
+#jiameng img{
+	width: 292px;
+	height: 200px;
+}
+/*右侧结束*/
+/*热卖好车结束*/
+
+/*阳光视频开始*/
+#vid{
+	width: 1200px;
+	height: 212px;
+	border: 1px solid #CCCCCC;
+	margin: 0 auto;
+	margin-top: 20px;
+	display: flex;
+}
+#vid img{
+	width: 180px;
+	height: 140px;
+}
+#vid .left{
+	width: 854px;
+	height: 212px;
+	position: relative;
+}
+#vid .left .prev{
+	display: block;
+	width: 24px;
+	height: 24px;
+	background: url(../images/in_l.png) no-repeat;
+	position: absolute;
+	top: 10px;
+	right: 76px;
+}
+#vid .left .shows{
+	display: block;
+}
+#vid .left .next{
+	display: block;
+	width: 24px;
+	height: 24px;
+	position: absolute;
+	top: 10px;
+	right: 0px;
+	background: url(../images/in_r.png) no-repeat;
+}
+#vid .left ul{
+	list-style: none;
+	width: 33px;
+	height: 6px;
+	display: flex;
+	justify-content: space-between;
+	position: absolute;
+	top: 18px;
+	right: 32px;
+}
+#vid .left ul li{
+	width: 6px;
+	height: 6px;
+	border-radius: 50%;
+	background: #CCCCCC;
+}
+#vid .left ul .one{
+	background: #0000ff;
+}
+#vid .left>div{
+	width: 742px;
+	height: 140px;
+	position: absolute;
+	top: 45px;
+	left: 15px;
+	display: none;
+}
+#vid .left .bigs>div{
+	width: 371px;
+	height: 140px;
+	position: relative;
+	float: left;
+}
+#vid .left .bigs>div h3{
+	position: absolute;
+	top: 3px;
+	left: 200px;
+	font-size: 14px;
+	color: #666666;
+}
+#vid .left .bigs>div p{
+	position: absolute;
+	top: 48px;
+	left: 200px;
+	font-size: 12px;
+	color: #666666;
+}
+#vid .left .bigs a{
+	display: block;
+	width: 68px;
+	height: 26px;
+	position: absolute;
+	top: 96px;
+	left: 288px;
+	font-size: 12px;
+	color: #FFFFFF;
+	text-align: center;
+	line-height: 26px;
+	background: #3989DA;
+}
+#vid .left .bigs>div a:hover{
+	background: #FF7800;
+}
+#vid .left h2{
+	font-size: 16px;
+	color: #666;
+	position: absolute;
+	top: 14px;
+	left: 22px;
+}
+#vid .right{
+	width: 346px;
+	height: 212px;
+	position: relative;
+}
+#vid .right h3{
+	font-size: 16px;
+	color: #000;
+	position: absolute;
+	top: 14px;
+	left: 10px;
+}
+#vid .right ul{
+	width: 90%;
+	position: absolute;
+	top: 50px;
+	left: 10px;
+}
+#vid .right ul li{
+	font-size: 12px;
+	color: #000000;
+	list-style: none;
+	padding-left: 15px;
+	line-height: 30px;
+	height: 30px;
+	background: url(../images/dott.png) no-repeat 0px 12px;
+}
+#vid .right ul li span{
+	float: right;
+}
+#vid .right ul li a{
+	color: #000000;
+}
+#vid .right ul li a:hover{
+	color: red;
+}
+#vid .right .more{
+	font-size: 12px;
+	color: #000000;
+	position: absolute;
+	top: 15px;
+	right: 20px;
+}
+#vid .right .more:hover{
+	color: red;
+	text-decoration: underline;
+}
+/*阳光视频结束*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 
